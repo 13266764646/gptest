@@ -27,7 +27,7 @@ public class LogStepTest {
         loggerStep.end();
     }
 
-//    10:02:59.963 [main] INFO com.gwy.log.LogStepTest - [log stage begin]
+//10:02:59.963 [main] INFO com.gwy.log.LogStepTest - [log stage begin]
 //            10:02:59.975 [main] INFO com.gwy.log.LogStepTest - step 1/3 : 调用sku服务
 //10:02:59.975 [main] INFO com.gwy.log.LogStepTest - =================调用sku服务==================
 //            10:02:59.976 [main] INFO com.gwy.log.LogStepTest - step 1/3 : ok

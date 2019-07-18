@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 import org.slf4j.MDC;
 
 /**
- * @author Haixiang.Zheng
+ * @author
  * @since 2017/10/20
  */
 @Aspect

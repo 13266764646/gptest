@@ -12,7 +12,7 @@ import org.slf4j.spi.LocationAwareLogger;
  * [log successfully.]
  * </p>
  *
- * @author Haixiang.Zheng
+ * @author
  * @since 2017/11/9
  */
 public class LoggerStep {
