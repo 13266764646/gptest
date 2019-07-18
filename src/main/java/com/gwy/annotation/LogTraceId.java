@@ -8,7 +8,7 @@ import java.lang.annotation.*;
  * 日志加上UUID,适用于MQ，自启线程
  * {@link LogTraceIdAspect}
  *
- * @author Haixiang.Zheng
+ * @author
  * @since 2017/11/15
  */
 @Target(ElementType.METHOD)
