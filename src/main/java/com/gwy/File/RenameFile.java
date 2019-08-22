@@ -10,7 +10,7 @@ import java.io.File;
  * @Description 重新命名文件夹的名字
  **/
 public class RenameFile {
-    private static final String OLDNAMES = "qianmi,ningpai";
+    private static final String OLDNAMES = "qianqian,ningning";
     private static final String NEWNAME = "supermarket";
 
     static int count = 0;

@@ -11,7 +11,7 @@ import java.io.*;
  **/
 public class ReplaceFileContent {
 
-    private static final String OLDCHART = "qianmi,ningpai";
+    private static final String OLDCHART = "qianqian,ningning";
     private static final String NEWCHART = "supermarket";
     /**
      * 主方法测试
