@@ -2,7 +2,6 @@ package com.gwy.controller;
 
 import com.gwy.bean.User;
 import com.gwy.service.impl.UserService;
-import com.sun.org.glassfish.gmbal.ParameterNames;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,6 +1,6 @@
 package com.gwy.bean;
 
-public class User {
+public class User implements  Cloneable{
     private String id;
 
     private String name;
@@ -30,4 +30,23 @@ public class User {
     public void setTel(String tel) {
         this.tel = tel;
     }
+
+    @Override
+    public  Object clone() throws  CloneNotSupportedException{
+        return super.clone();
+    }
+
+    public boolean equals(Object obj) {
+        User user = (User) obj;
+        if(id.equals(user.getId()) && name.equals(user.getName()) && tel.equals(user.getTel())){
+            return true;
+        }
+        return false;
+    }
+
+
+    public String toString() {
+        return this.getId()+"--"+this.getName()+"----"+this.getTel();
+    }
+
 }
