@@ -13,6 +13,7 @@ import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 public class GpApplication {
 
 	public static void main(String[] args) {
+		System.out.println("---test branches----");
 		new SpringApplicationBuilder(GpApplication.class).web(true).run(args);
 	}
 
