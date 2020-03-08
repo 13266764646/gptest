@@ -1,6 +1,9 @@
 package com.gwy.bean;
 
-public class User implements  Cloneable{
+import java.io.Serializable;
+
+public class User  implements  Cloneable, Serializable {
+
     private String id;
 
     private String name;
